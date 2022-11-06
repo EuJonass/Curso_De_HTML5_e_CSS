@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/*Shorthands*/
+h2 {
+    font: italic bolder 2em 'Work Sans', sans-serif;
+}

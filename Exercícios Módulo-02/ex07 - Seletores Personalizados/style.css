@@ -1,0 +1,37 @@
+@charset "UTF-8";
+ 
+body{
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: cadetblue;
+    color: brown;
+}
+
+h2{
+    background-color: black;
+    color: yellowgreen;
+}
+
+h3{
+    color: blue;
+}
+
+p{
+    background-color: rgb(198, 166, 228);
+}
+
+ h1#Principal{
+    font-family: fantasy;
+    font-weight: 800;
+    text-align: center;
+ }
+
+p#Principal{
+    background-color: darkred;
+    color: chartreuse;
+    text-align: center;
+}
+

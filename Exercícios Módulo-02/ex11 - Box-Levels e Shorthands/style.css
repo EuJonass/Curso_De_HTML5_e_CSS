@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+h1#Principal{
+    background-color: aqua;
+    width: 125px;
+    height: 40px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+
+
+a{
+    background-color: chartreuse;
+    border: 2px;
+    border-color: rgba(37, 41, 33, 0.849);
+    border-style: solid;
+}
+
+h1#Secundario{
+    background-color: black;
+    color: azure;
+    border: 3px;
+    border-color: chartreuse;
+    border-style: solid;
+
+}
+
+h1#Principal2{
+    background-color: aqua;
+    width: 600px;
+    height: 45x;
+
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+
+    margin: auto;
+    margin-bottom: 15px;
+    
+    /*
+     ShortHand de PADDING
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    */
+    padding: 7px;
+    
+}

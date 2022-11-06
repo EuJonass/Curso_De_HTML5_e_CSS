@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/sol.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+</head>
+
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou aoumente e diminua a tomanho do navegador.</p>
+    <hr>
+
+    <h3>Imagem com tag (picture)</h3>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imgP.png" type="image/png">
+            <!--Tamanho maximo para a imagem Pequena aparecer é de 750px-->
+
+        <source media="(max-width: 1050px)" srcset="img/imgM.png" type="image/png">
+            <!--Tamano maximo para a imagem Média aparecer é de 1050px-->
+
+        <img src="img/imgG.png" alt="Imagem Grande/flexivel">
+            <!--Tamano de Img Grande-->
+    </picture>
+    <hr>
+    <img src="img/imgCode.png" alt="Imagem do Código Fonte">
+    <hr>
+    <h2>Reproduzindo Audios em HTML5</h2>
+    <p>Formatos suportados - MP3, WAV e OGG</p>
+    <audio src="midia/music.mp3" controls autoplay></audio>
+    <hr>
+
+    <!--No preload podemos colocar para a pessoa ouvir o som apenas quadno ela apertar sobre o play e assim começa o dowlowd do som.-->
+    <audio preload="auto" controls >
+        <source src="midia/music.mp3" type="audio/mpeg">
+        <source src="midia/music.ogg" type="audio/ogg">
+        <source src="midia/music.wav" type="audio/wav">
+        <p>Infelizmente não conseguoimos reproduzir o audio em seu navegador</p>
+    </audio>
+
+    
+</body>
+</html>

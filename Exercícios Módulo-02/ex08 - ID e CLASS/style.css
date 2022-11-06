@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: blueviolet;
+}
+
+h1#principal{
+    background-color: rgb(17, 15, 13);
+    color: rgb(255, 110, 7);
+}
+
+
+.apresentaçao{
+    color: chartreuse;
+    background-color: rgb(8, 8, 7);
+    font-weight: 600;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.subtitulo{
+    color: firebrick;
+    background-color: aqua;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    text-decoration: underline;
+}

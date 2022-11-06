@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+h1#Principal{
+    background-color: aqua;
+    width: 400px;
+    height: 45x;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+p{
+    background-color: cornflowerblue;
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+a{
+    background-color: chartreuse;
+    border: 2px;
+    border-color: rgba(37, 41, 33, 0.849);
+    border-style: solid;
+}
+
+h1#Secundario{
+    background-color: black;
+    color: azure;
+    border: 3px;
+    border-color: chartreuse;
+    border-style: solid;
+
+}
+
+h1#Principal2{
+    background-color: aqua;
+    width: 600px;
+    height: 45x;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    
+
+    /* 7px da borda de cima até a escrita */ 
+    /* 7px da borda de baixo até a escrita */ 
+    /* 7px da borda da direita até a escrita */ 
+    /* 7px da borda da esquerda até a escrita */ 
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    
+    
+}

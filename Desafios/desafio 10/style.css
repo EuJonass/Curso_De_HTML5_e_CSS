@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android' ;
+    src: url(img/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    background-color: var(--cor1);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--cor2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+img {
+    width: 100%;
+}
+
+main img.pequena {
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+header#cabeçalho{
+    padding: 30px;
+    width: auto;
+    
+    text-align: center;
+    
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    color: aliceblue;
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.788);
+   box-shadow: 1px 1px 1px var(--cor3);
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+h1#cabeçalho{
+    font-style: italic;
+    
+}
+
+h1#principal{
+    text-align: center;
+    border-radius: 3px;
+    
+
+    
+    box-shadow: 1px 1px 1px 2px black;
+}
+
+nav#cabeçalho{
+    text-align: left;
+    color: aliceblue;
+  
+    font-size: x-small;
+    width: auto; 
+    font-size: smaller; 
+    display: block;
+    text-shadow: none;
+    font-size: 10px;
+    text-decoration: none;
+
+    margin: 10px;
+    
+    padding-top: 24px;
+    padding-bottom: 5px;
+    border: 2px;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+.conteudo{
+    margin: 10px;
+    
+}
+
+.subtitulos{
+    margin: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor5);
+    color: aqua;
+    margin-bottom: 0px;
+    width: auto;
+    height: 30px;
+}
+
+footer > p{
+    padding-top: 5px;
+}
+
+main{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+ul{
+    lis
+}

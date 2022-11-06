@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: cadetblue;
+}
+
+a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+a:active {
+    color: deepskyblue;
+}
+
+a::after {
+    content: ' - [Link]';
+    text-decoration: none;
+}
+
+a::before {
+    content: "→ ";
+}

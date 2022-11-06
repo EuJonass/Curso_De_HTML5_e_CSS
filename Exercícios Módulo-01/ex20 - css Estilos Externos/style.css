@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    font-style: italic;
+    color: aliceblue;
+}
+
+a{
+    color: bisque;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+p{
+    color: blue;
+    font-size: large;
+    background-color: crimson;
+    font-style: oblique;
+}
